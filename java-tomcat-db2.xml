@@ -1,0 +1,10 @@
+<Context path="/java-tomcat-db2" docBase="H:\opengion_user\work_git\java-tomcat-db2" reloadable="true">
+	<Resource
+		name="jdbc/datasource"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="postgres"
+		password="Administrator"
+		drivarClassname="org.postgresql.Driver"
+		url="jdbc:postgresql://localhost:5433/test" />
+</Context>
